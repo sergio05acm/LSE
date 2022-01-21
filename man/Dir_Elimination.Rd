@@ -1,5 +1,5 @@
 \name{Direct Elimination}
-\alias{Direct Elimination}
+\alias{Dir_Elimination}
 
 \title{
 Direct Elimination for LSE problem.

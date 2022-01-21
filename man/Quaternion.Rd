@@ -5,7 +5,7 @@
 Quaternion transformation
 }
 \description{
-A quaternion a+bi+cj+dk can be transformed into a matrix M\in \Re^{4}.
+A quaternion a+bi+cj+dk can be transformed into a matrix M(4x4).
 }
 \usage{
 Quaternion(a,b,c,d)

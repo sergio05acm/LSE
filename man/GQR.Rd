@@ -8,19 +8,20 @@ Generalized QR Factorization
 This code provides a simultaneous orthogonal factorization for two matrices A and B.
 }
 \usage{
-GQR(A,B)
+GQR(x,y)
 }
 
 \arguments{
-  \item{A}{
+  \item{x}{
   Numeric matrix
   }
-  \item{B}{
+  \item{y}{
   Numeric matrix
   }
 }
 \details{
 Given two matrices, with the same number of rows, this algorithm provides a single factorization, such that A=QR and ((Q^T)B)=WS.
+}
 \value{
   \item{Q}{Orthogonal matrix for A}
   \item{R}{Trapezoidal matrix for A}
@@ -37,7 +38,7 @@ sergio05acm@gmail.com
 }
 
 \examples{
-A = matrix(c(1,1,1,1,3,1,1,-1,1,1,1,1),4,3,byrow=T)
-C = matrix(c(1,1,1,1,1,-1),2,3,byrow=T)
+A = matrix(c(1,1,1,1,3,1,1,-1,1,1,1,1),4,3,byrow=TRUE)
+C = matrix(c(1,1,1,1,1,-1),2,3,byrow=TRUE)
 GQR(t(A),t(C))
 }

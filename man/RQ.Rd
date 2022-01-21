@@ -8,11 +8,11 @@ RQ Factorization of a matrix
 RQ factorization allows to develop an orthogonal transformation in a matrix through Householder reflections.
 }
 \usage{
-RQ(x)
+RQ(y)
 }
 
 \arguments{
-  \item{x}{
+  \item{y}{
 Numeric matrix or vector.
 }
 }
@@ -22,14 +22,14 @@ RQ factorization make a orthogonal transformation at the rows of the matrix, beg
 \value{
  \item{Q}{Orthogonal matrix for x}
  \item{R}{Triangular matrix for x}
-
+}
 \author{
 Sergio Andrés Cabrera Miranda
 Statician
 sergio05acm@gmail.com
 }
 
-\example{
-A = matrix(runif(12,0,5),4,3,byrow=T)
+\examples{
+A = matrix(runif(12,0,5),4,3,byrow=TRUE)
 RQ(A)
 }
