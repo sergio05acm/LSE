@@ -1,8 +1,8 @@
 # GQR factorization
-We expose the orthogonal decomposition called Generalized QR Factorization (GQR) and RQ factorization applied to LSE problem.
+We expose the orthogonal decomposition called Generalized QR Factorization (GQR) and RQ factorization applied to equality constrained least squares problem (LSE).
 
 # LSE
-The solution of equality constrained least squares problem (LSE) is given through four analytics methods:
+The solution of the LSE problem is given through four analytics methods:
 Generalized QR Factorization.
 Lagrange Multipliers.
 Direct Elimination.
