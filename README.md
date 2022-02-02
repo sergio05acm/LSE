@@ -23,7 +23,7 @@ Rao, C. R., & Toutenburg, H. (1995). Linear models. In Linear models (pp. 3-18).
 **References about Generalized QR Factorization**
 Anderson, E., Bai, Z., & Dongarra, J. (1992). Generalized QR factorization and its applications. Linear Algebra and its Applications, 162, 243-271.
 
-**References about Null Sace method, Direct Elimination and Lagrange Multipliers**
+**References about Null Space method, Direct Elimination and Lagrange Multipliers**
 Lawson, C. L., & Hanson, R. J. (1995). Solving least squares problems. Society for Industrial and Applied Mathematics.
 Van Benthem, M., Keenan, M. and Haaland, M. (2002). Application of equality constraints on variables during alternating least squares procedures, 16, 613-622.
 
